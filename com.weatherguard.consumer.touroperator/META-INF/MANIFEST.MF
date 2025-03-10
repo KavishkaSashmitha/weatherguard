@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.weatherguard.consumer.tour-operator
+Bundle-SymbolicName: com.weatherguard.consumer.tour-operator
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.weatherguard.consumer.touroperator.consumer.TourOperatorConsumer
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: tour.operator.consumer
+Import-Package: com.weatherguard.producer.disasteralert.model,
+ com.weatherguard.producer.disasteralert.service,
+ com.weatherguard.producer.weatherstation,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
