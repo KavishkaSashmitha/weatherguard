@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Touristapp
+Bundle-SymbolicName: com.weatherguard.consumer.touristapp
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.weatherguard.consumer.touristapp.Activator
+Bundle-Vendor: WEATHERGUARD
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: com.weatherguard.consumer.touristapp
+Import-Package: com.weatherguard.producer.traveladvisor.model,
+ com.weatherguard.producer.traveladvisor.service,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.1"
+Bundle-ActivationPolicy: lazy
